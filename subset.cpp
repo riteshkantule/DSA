@@ -23,7 +23,7 @@ void solve(string in, string out){
     return;
     
 }
-
+// In repeted char - for unique subsets use maps
 int main()
 {
     string in;
