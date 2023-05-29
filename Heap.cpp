@@ -66,6 +66,5 @@ int main() {
     createHeap(b, sizeof(b)/sizeof(b[0]));
     Print(b, sizeof(b)/sizeof(b[0]), 'b');
  
- 
     return 0;
 }
