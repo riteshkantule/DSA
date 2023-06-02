@@ -28,5 +28,5 @@ int main() {
         maxH.pop();
     }
 
-    return 0;
+return 0;
 }
