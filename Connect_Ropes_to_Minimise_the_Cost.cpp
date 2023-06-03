@@ -26,7 +26,8 @@ int main() {
         minH.pop();
         cost = cost+first+second;
         minH.push(first+second);
-    }
+    }.
+        
     cout << cost << endl;
 
     return 0;
