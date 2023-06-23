@@ -4,7 +4,7 @@
 #include <vector>
 
 using namespace std;
-
+// Globally defined according to constrained in question/requirement
 int t[1001][1001];
 
 int LCS(string x, string y, int n, int m) {
