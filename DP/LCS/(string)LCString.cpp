@@ -56,6 +56,7 @@ int commom_substring(string str, string frr) {
 }
 
 int main() {
+    
     string str;
     string frr;
     cin >> str >> frr;
