@@ -2,8 +2,7 @@
 
 using namespace std;
 
-int matrix[1001][1001];
-unordered_map<string, bool> mp;
+int static matrix[1001][1001];
 
 bool ispalindrome(const string& str, int i, int j) {
     if (i == j) return true;
