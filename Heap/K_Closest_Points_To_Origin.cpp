@@ -15,12 +15,14 @@ int main(){
         int distance = arr[i][0] * arr[i][0] + arr[i][1] * arr[i][1];
         pair<int, int> point = make_pair(arr[i][0], arr[i][1]);
         maxH.push(make_pair(distance, point));
-        if (maxH.size()>k) maxH.pop();
+        if (maxH.size()>k){
+            maxH.pop();
+        }
     }
 
     while(maxH.size()!=0){
         pair <int , int> p = maxH.top().second;
-        cout << p.first<< " "<<p.second<< endl;
+        cout << p.first << " "<< p.second << endl;
         maxH.pop();
     }
     cout << endl;
