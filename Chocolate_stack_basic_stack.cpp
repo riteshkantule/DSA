@@ -1,7 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-
 vector<int> solution (int N, vector<int> C) {
     vector<int> sold_chocolates;
     vector<int> stack;
